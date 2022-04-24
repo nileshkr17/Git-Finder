@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #2e2a68 74%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 50vh;
+    margin: 0;
+
+}
+input::placeholder{
+    color: #bbb;
+}
+input:focus{
+    outline: none;
+}
+input{
+    background-color: #4c2885;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: inherit;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+        0 15px 40px rgba(0, 0, 0, 0.1);
+    border: none;
+    color: whitesmoke;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.card{
+    background-color: #4c2885;
+    background-image:  linear-gradient(315deg, #4c2885 0%, #4c11ac 100%);
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(0,0,0,0.1);
+    display: flex;
+    padding: 3rem;
+    max-width: 800px;
+
+}
