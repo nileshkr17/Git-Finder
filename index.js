@@ -41,5 +41,43 @@ function createUserCard(user)
     </div>
 </div>
 `;
-    
+    main.innerHTML =cardHTML;
+
 }
+
+function addReposToCard(repos)
+{
+    const repos1 = document.getElementById("repos");
+    repos
+        .sort((a,b) => b.stargazers_count - a.stargazers_count)
+        .slice(0,10)
+        //The slice() method returns a shallow copy of a 
+        //portion of an array into a new array object selected from
+        // start to end (end not included) where start and 
+        //end represent the index of items in that array.
+        // The original array will not be modified.
+
+        .forEach((repo) => {
+            const repos1 = document.createElement("a");
+            repos1.classList.add("repo");
+            repos1.href = repo.html_url;
+            repos1.target = "_blank";
+            repos1.innerText = repo.name;
+            repos1.appendChild(repos1);
+
+        });
+
+
+}
+
+form.addEventListener("submit", (e) => {
+    e.preventDefault();
+
+    const user = search.value;
+
+    if (user) {
+        getUser(user);
+
+        search.value = "";
+    }
+});
