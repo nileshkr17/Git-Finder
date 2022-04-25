@@ -9,4 +9,5 @@ JavaScript Project - GitHub profiles app
 ## Maintainers
 
 - [nileshkr17](https://github.com/nileshkr17)
+- [MarcWebDev](https://github.com/marcwebdev)
 - [mezotv](https://github.com/mezotv)
