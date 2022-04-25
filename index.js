@@ -1,16 +1,12 @@
 if ("serviceWorker" in navigator) {
-    // register service worker
-    navigator.serviceWorker.register("service-worker.js");
-  }
-
+  // register service worker
+  navigator.serviceWorker.register("service-worker.js");
+}
 const APIURL = "https://api.github.com/users/";
-
 const main = document.getElementById("main");
 const form = document.getElementById("form");
 const search = document.getElementById("search");
-
 getUser("nileshkr17");
-
 async function getUser(username) {
     const resp = await fetch(APIURL + username);
     const respData = await resp.json();
@@ -19,11 +15,9 @@ async function getUser(username) {
 
     getRepos(username);
 }
-
 async function getRepos(username) {
     const resp = await fetch(APIURL + username + "/repos");
     const respData = await resp.json();
-
     addReposToCard(respData);
 }
 
