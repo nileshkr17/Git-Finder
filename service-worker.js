@@ -27,8 +27,8 @@ self.addEventListener("fetch", (event) => {
 });
 
 self.addEventListener("push", (event) => {
-  const title = "Yes, a message";
-  const body = "We have received a push message";
+  const title = "Yes, a message!";
+  const body = "We have received a push message!";
   const tag = "simple-push-example-tag";
   const options = {
     body: body,

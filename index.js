@@ -33,7 +33,7 @@ function createUserCard(user) {
                 <ul class="info">
                     <li>${user.followers}<strong>Followers</strong></li>
                     <li>${user.following}<strong>Following</strong></li>
-                    <li>${user.public_repos}<strong>Public Repositorys</strong></li>
+                    <li>${user.public_repos}<strong>Public Repositories</strong></li>
                 </ul>
                 <div id="repos"></div>
             </div>
