@@ -24,6 +24,7 @@ input:focus{
 input{
     background-color: #4c2885;
     border-radius: 10px;
+
     font-size: 1rem;
     font-family: inherit;
     box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
@@ -98,3 +99,32 @@ input{
 .ftext{
     margin-top: 1rem;
 }
+
+
+@media screen and (max-width: 768px) {
+    .card {
+      flex-direction: column;
+      align-items: center;
+    }
+    .avatar {
+      margin-top: 1rem;
+    }
+    .user-info {
+      margin-left: 0;
+      text-align: center;
+    }
+    #search{
+        border:red solid 3px;
+        margin-top: 30px;
+     }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .user-info ul {
+      flex-direction: column;
+    }
+    .user-info ul li {
+      margin-bottom: 1rem;
+    }
+  }
+  
