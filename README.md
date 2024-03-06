@@ -4,7 +4,7 @@
 
 Git Finder is a web application built with JavaScript that allows users to search for GitHub users and view their profile information and top repositories. The application fetches data from the GitHub API and provides a user-friendly interface to explore GitHub profiles.
 
-🌐 Live Demo: [Git Finder](https://profile-git-finder.netlify.app/)
+🌐 Live Demo: [Git Finder](  )
 
 ## Features :rocket:
 
@@ -32,13 +32,3 @@ Git Finder is a web application built with JavaScript that allows users to searc
 2. Enter a GitHub username in the search bar.
 3. Press the Enter key or click the search button.
 4. The user's profile information and top repositories will be displayed.
-
-## Contributing :handshake:
-
-Contributions are welcome! If you have any suggestions, improvements, or bug fixes, please create a pull request. For major changes, please open an issue first to discuss the proposed changes.
-
-
-## Maintainers
-
-- [nileshkr17](https://github.com/nileshkr17)
-- [mezotv](https://github.com/mezotv)
